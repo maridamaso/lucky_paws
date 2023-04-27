@@ -7,12 +7,17 @@
 <p>Because of that, I chose to use the Maneki Neko with the right paw raised on my website, to bring luck to the players.</p>
 <h2>(˵ •̀ ᴗ - ˵ ) ✧Project Concept on Canva</h2>
 <p>I created the entire website layout in Canva. I created all the screens for drawing numbers, although they are not yet implemented.</p>
-<img src="Imagens/pag1.PNG">
-<img src="Imagens/pag2.PNG">
-<p>For mobile devices</p>
-<img src="Imagens/cell1.jpeg">
-<img src="Imagens/cell2.jpeg">
-<h2>/ᐠ - ˕ -マ How to access the project</h2>
-<a href="https://maridamaso.github.io/lucky_paws/">Click here to access</a>
+<p>It is important to remember that the site was designed for use on computers. I don't have a mobile version yet, but I'll work on it soon!</p>
+<img src="Imagens/lightmode.png">
+<img src="Imagens/darkmode.png">
+<img src="Imagens/3.png">
+<img src="Imagens/4.png">
 <h2>ฅ՞•ﻌ•՞ฅ Features</h2>
 <p>I have created some features for the website. Using JavaScript, I have created the functionality of Light Mode and Dark Mode, as well as the functionality of drawing random numbers.</p>
+<h2>/ᐠ - ˕ -マ How to access the project</h2>
+<a href="https://maridamaso.github.io/lucky_paws/">Click here to access</a>
+<h2>(◍•ᴗ•◍)♡ ✧* Image Credits</h2>
+<p>Special thanks to Flaticon and Freepik who have excellent free images for use in study projects like this one.</p>
+<a href="https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-gato-da-sorte_35874181.htm#query=lucky%20cat%20png&position=3&from_view=search&track=ais">Imagem de storyset</a> no Freepik <br>
+<a href="https://www.flaticon.com/br/icones-gratis/meia-lua" title="meia-lua ícones">Meia-lua ícones criados por Bharat Icons - Flaticon</a> <br>
+<a href="https://www.flaticon.com/br/icones-gratis/clima" title="clima ícones">Clima ícones criados por Freepik - Flaticon</a>
