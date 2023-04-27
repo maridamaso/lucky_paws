@@ -1,0 +1,126 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 4%;
+}
+header div h1{
+    font-size: large;
+    font-weight: 100;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+header nav a:hover{
+    color: #7C4381;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+main #imagem img{
+    width: 511px;
+    height: 553px;
+    margin-right: 70px;
+}
+main #conteudo{
+    width: 50%;
+    margin-top: -4%;
+}
+main #conteudo h2{
+    font-size: 55px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+main #conteudo p{
+    font-size: large;
+}
+main #conteudo p input{
+    text-align: center;
+    width: 118px;
+    height: 28px;
+    border-radius: 30px;
+    font-size: large;
+}
+main #conteudo #texto_sorteio{
+    margin-top: 5%;
+    font-size: x-large;
+}
+main #conteudo button{
+    margin-left: 40%;
+    border-radius: 30px;
+    width: 128px;
+    height: 34px;
+    font-size: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+footer a{
+    position: fixed;
+    float: right;
+    right: 1%;
+    bottom: 1%;
+}
+footer a img{
+    width: 40px;
+    height: 40px;
+}
+
+/*Troca de modo Claro e Escuro*/
+
+.modoClaro{
+    background-color: #FFE9CE;
+    color: black;
+}
+.modoClaro input{
+    background-color: #AD6FAE;
+    color: black;
+    border: none;
+}
+.modoClaro button{
+    background-color: #AD6FAE;
+    color: black;
+    border: none;
+}
+.modoClaro button:hover{
+    background-color: #EAC9E0;
+}
+
+.modoEscuro{
+    background-color: #433941;
+    color: white;
+}
+.modoEscuro input{
+    background-color: #AD6FAE;
+    color: white;
+    border: none;
+}
+.modoEscuro button{
+    background-color: #AD6FAE;
+    color: white;
+    border: none;
+}
+.modoEscuro button:hover{
+    background-color: #7C4381;
+}
+
+input::placeholder{
+    color: darkslategrey;
+}
