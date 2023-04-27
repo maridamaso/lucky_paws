@@ -1,7 +1,7 @@
 <h1 align="center"> ʕ •ᴥ• ʔ	Lucky Paws Page </h1>
 <p>I made this simple project for a page of drawing numbers, names and fortune cookies. I'm learning JavaScript and trying to apply it to my web projects to add functionality to the pages.</p>
 <p>🌱 With this project I intend to improve my skills in JavaScript language.</p>
-<h2>(◡‿◡✿) Concept behind the project</h2>
+<h2>(◡‿◡✿) Behind the project</h2>
 <p>Doing research on possible topics I found the figure of Maneki Neko. Maneki Neko is a traditional Japanese figure representing a cat with one paw raised, usually seen in shops, restaurants and other commercial establishments. It is believed that this figure brings luck and prosperity to the business.</p>
 <p>The cat can have its left or right paw raised, and there are different meanings associated with each position. The raised right paw is considered an invitation to wealth and luck, while the raised left paw is seen as an invitation to attract customers and people to the establishment.</p>
 <p>Because of that, I chose to use the Maneki Neko with the right paw raised on my website, to bring luck to the players.</p>
