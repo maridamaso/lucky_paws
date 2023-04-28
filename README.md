@@ -21,4 +21,4 @@
 <a href="https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-gato-da-sorte_35874181.htm#query=lucky%20cat%20png&position=3&from_view=search&track=ais">Imagem de storyset</a> no Freepik <br>
 <a href="https://www.flaticon.com/br/icones-gratis/meia-lua" title="meia-lua ícones">Meia-lua ícones criados por Bharat Icons - Flaticon</a> <br>
 <a href="https://www.flaticon.com/br/icones-gratis/clima" title="clima ícones">Clima ícones criados por Freepik - Flaticon</a> <br>
-<i class="fi fi-br-menu-burger"></i>
+<a href="https://www.flaticon.com/br/icon-font-gratis/menu-hamburguer_3917762?related_id=3917762" title="fi-br-menu-burger">Menu-hambúrguer free interface icon - Flaticon </a> 
