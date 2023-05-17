@@ -157,7 +157,6 @@ function resultado(valor){
   let conteudoNumeros = document.querySelector('.conteudoSorteioNumeros');
   let resultadoNumeros = document.querySelector('.resultadoSorteioNumeros');
   let valorResultado = document.querySelector('#resultado');
-  let trocaNome = document.querySelector('#singular');
 
   conteudoNumeros.style.display = 'none';
   resultadoNumeros.style.display = 'block';
@@ -183,6 +182,14 @@ function sorteioNumeroON()
   conteudoNumeros.style.display = 'block';
   conteudoBiscoito.style.display = 'none';
   conteudoNome.style.display = 'none';
+
+  let resultadoBiscoito = document.querySelector('.resultadoSorteioBiscoito');
+  let resultadoNome = document.querySelector('.resultadoSorteioNome');
+  let resultadoNumeros = document.querySelector('.resultadoSorteioNumeros');
+
+  resultadoNumeros.style.display = 'none';
+  resultadoBiscoito.style.display = 'none';
+  resultadoNome.style.display = 'none';
 }
 
 function sorteioNomeON()
@@ -194,6 +201,14 @@ function sorteioNomeON()
   conteudoNumeros.style.display = 'none';
   conteudoBiscoito.style.display = 'none';
   conteudoNome.style.display = 'block';
+
+  let resultadoBiscoito = document.querySelector('.resultadoSorteioBiscoito');
+  let resultadoNome = document.querySelector('.resultadoSorteioNome');
+  let resultadoNumeros = document.querySelector('.resultadoSorteioNumeros');
+
+  resultadoNumeros.style.display = 'none';
+  resultadoBiscoito.style.display = 'none';
+  resultadoNome.style.display = 'none';
 }
 
 function sorteioBiscoitoON()
@@ -205,4 +220,12 @@ function sorteioBiscoitoON()
   conteudoNumeros.style.display = 'none';
   conteudoBiscoito.style.display = 'block';
   conteudoNome.style.display = 'none';
+
+  let resultadoBiscoito = document.querySelector('.resultadoSorteioBiscoito');
+  let resultadoNome = document.querySelector('.resultadoSorteioNome');
+  let resultadoNumeros = document.querySelector('.resultadoSorteioNumeros');
+
+  resultadoNumeros.style.display = 'none';
+  resultadoBiscoito.style.display = 'none';
+  resultadoNome.style.display = 'none';
 }
