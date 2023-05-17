@@ -15,25 +15,52 @@
             <h1 class="modoClaro">LUCKY PAWS</h1>
         </div>
         <nav>
-            <a class="modoClaro" href="#">SORTEIO DE NÚMEROS</a>
-            <a class="modoClaro" href="#">SORTEIO DE NOMES</a>
-            <a class="modoClaro" href="#">BISCOITO DA SORTE</a>
+            <a onclick="sorteioNumeroON()" class="modoClaro" id="sorteioNumero" href="#">SORTEIO DE NÚMEROS</a>
+            <a onclick="sorteioNomeON()" class="modoClaro" href="#">SORTEIO DE NOMES</a>
+            <a onclick="sorteioBiscoitoON()" class="modoClaro" id="sorteioBiscoito" href="#">BISCOITO DA SORTE</a>
         </nav>
     </header>
     <main>
         <div id="imagem">
             <img id="trocaGato" class="modoClaro" src="Imagens/maneki.png" alt="Gato da Sorte - Modo Claro">
         </div>
+
+        <!--Conteudo do sorteio de numeros-->
         <div class="conteudoSorteioNumeros" id="conteudo">
             <h2 class="modoClaro">SORTEIO DE NÚMEROS</h2>
             <p class="modoClaro">Quer escolher um número aleatório entre um intervalo ou embaralhar vários números? Aqui é o lugar certo! O Sorteio de Números vai te ajudar a decidir rapidamente qual número escolher. É só definir o intervalo ou a sequência de números, apertar o botão e pronto! Deixe o Sorteio de Números fazer o trabalho duro para você.</p>
             <p id="texto_sorteio" class="modoClaro">Sortear <input oninput="trocaValor()" id="quantNum" type="number" placeholder="1" min="1"> <span id="texto" class="modoClaro"> número </span> entre <input id="intervalo01" type="number" placeholder="0" min="0"> e <input id="intervalo02" type="number" placeholder="1" min="1"></p>
-            <button onclick="sortear()" class="modoClaro">SORTEAR</button>
+            <button onclick="sortearNumero()" class="modoClaro">SORTEAR</button>
         </div>
         <div class="resultadoSorteioNumeros" id="conteudo">
             <h2 class="modoClaro" id="singular">O NÚMERO SORTEADO FOI</h2>
             <p id="resultado">0</p>
-            <button onclick="voltar()" class="modoClaro">VOLTAR</button>
+            <button onclick="voltarNumero()" class="modoClaro">VOLTAR</button>
+        </div>
+
+        <!--Conteudo do sorteio de nomes-->
+        <div class="conteudoSorteioNomes" id="conteudo">
+            <h2 class="modoClaro">SORTEIO DE NOMES</h2>
+            <p class="modoClaro">Não sabe quem vai ser o sorteado? Quer fazer uma lista aleatória de nomes? O Sorteio de Nomes está aqui para te ajudar! Ele pode escolher um nome aleatório ou embaralhar uma lista inteira de nomes. É só digitar os nomes e apertar o botão para deixar o Sorteio de Nomes escolher por você. Experimente agora!</p>
+            <textarea class="modoClaro" id="campoNome" cols="30" rows="10" placeholder="Digite aqui os nomes que participaram do sorteio..."></textarea>
+            <button onclick="sortearNomes()" class="modoClaro">SORTEAR</button>
+        </div>
+        <div class="resultadoSorteioNome" id="conteudo">
+            <h2 class="modoClaro" id="singular">O NOME SORTEADO FOI</h2>
+            <p id="resultadoNome"></p>
+            <button onclick="voltarNome()" class="modoClaro">VOLTAR</button>
+        </div>
+
+        <!--Conteudo do sorteio de biscoito da sorte-->
+        <div class="conteudoSorteioBiscoito" id="conteudo">
+            <h2 class="modoClaro">BISCOITO DA SORTE</h2>
+            <p class="modoClaro">Que tal começar o dia com uma mensagem inspiradora? O Biscoito da Sorte pode te ajudar! Clique na aba e receba a sua sorte do dia. Com mensagens positivas e motivacionais, você pode se inspirar para enfrentar qualquer desafio que vier pela frente. Experimente agora e comece o dia com o pé direito!</p>
+            <button onclick="sortearBiscoito()" class="modoClaro">SORTEAR</button>
+        </div>
+        <div class="resultadoSorteioBiscoito" id="conteudo">
+            <h2 class="modoClaro" id="singular">SUA SORTE É</h2>
+            <p id="resultadoBiscoito"></p>
+            <button onclick="voltarBiscoito()" class="modoClaro">VOLTAR</button>
         </div>
     </main>
     <footer>
