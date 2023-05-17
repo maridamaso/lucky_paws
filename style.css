@@ -96,7 +96,18 @@ footer a img{
 .resultadoSorteioNumeros{
     display: none;
 }
-
+.conteudoSorteioBiscoito{
+    display: none;
+}
+.resultadoSorteioBiscoito{
+    display: none;
+}
+.conteudoSorteioNomes{
+    display: none;
+}
+.resultadoSorteioNome{
+    display: none;
+}
 
 /*Troca de modo Claro e Escuro*/
 
